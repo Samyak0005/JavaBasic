@@ -5,9 +5,8 @@ public class TablePrint {
         System.out.println("Enter your number :");
         Scanner Sc = new Scanner(System.in);
         int n =Sc.nextInt();
-
-        for ( int i=0; i<=n; i++){
-            System.out.println(i);
+        for ( int i=1; i<=11; i++){
+            System.out.println("printed two table "+(i*n));
         }
 
     }
