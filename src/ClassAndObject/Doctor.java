@@ -16,6 +16,7 @@ public class Doctor {
 
     public static void main(String[] args) {
         Doctor obj = new Doctor("d1","Samyak","Neurologist",234);
+        Doctor obj2 = new Doctor("d2","ritik","psychiatrist",235);
         System.out.println("DETAILS OF DOCTOR");
         System.out.println();
 
@@ -23,6 +24,10 @@ public class Doctor {
         System.out.println(obj.name);
         System.out.println(obj.position);
         System.out.println(obj.room);
-
+        System.out.println("\n");
+        System.out.println(obj2.id);
+        System.out.println(obj2.name);
+        System.out.println(obj2.position);
+        System.out.println(obj2.room);
     }
 }
