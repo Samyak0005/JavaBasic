@@ -19,14 +19,15 @@ public class Cals {
 
             if (choice == "no" || choice.equals("no")) {
                 System.out.println("nothing printed");
+                break;
             } else if (choice == "yes" || choice.equals("yes")) {
                 System.out.println("continue press yes");
-            }
+
                 Scanner SC = new Scanner(System.in);
                 String str = SC.nextLine();
-                while (str == "yes")
-                    System.out.println(str);
-                i++;
+                  while (str == "yes")
+                  System.out.println(str);
+                   i++;
                 System.out.println("you could select operator");
                 Scanner Sc = new Scanner(System.in);
                 String select = Sc.nextLine();
@@ -39,6 +40,7 @@ public class Cals {
                 } else if (select == "div" || select.equals("div")) {
                     System.out.println("div " + (a / b));
                 }
+            }
             }while (true) ;
 
         }
