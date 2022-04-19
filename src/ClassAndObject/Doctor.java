@@ -29,5 +29,6 @@ public class Doctor {
         System.out.println(obj2.name);
         System.out.println(obj2.position);
         System.out.println(obj2.room);
+        System.out.println("ritik");
     }
 }
