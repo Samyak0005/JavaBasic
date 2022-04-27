@@ -46,8 +46,6 @@ public class Collection_With_Generics {
             }
                 public static void main(String[] args){
                     System.out.println("First method mobile brand with method");
-                  //  System.out.println("second method Distance list with method");
-                 //   System.out.println("third method salary list with Advanced method");
                     Collection_With_Generics obj = new Collection_With_Generics();
                     obj.moblieBrandList();
                     obj.distanceList();
@@ -57,8 +55,6 @@ public class Collection_With_Generics {
                     for (Double var : resultlist){
                         System.out.println(var);
                     }
-
-
 
                 }
 
