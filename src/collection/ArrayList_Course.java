@@ -1,7 +1,6 @@
 package collection;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ArrayList_Course {
     public static void main(String[] args) {
@@ -21,8 +20,9 @@ public class ArrayList_Course {
 
  }
  courselist.remove(1);
-        System.out.println("printing all subject"+courselist.get(1));
+        System.out.println("after remove index 1 "+courselist.get(1));
         // used advanced loop cencept
+        System.out.println("printed for loop advances");
         for(Object var : courselist){
             System.out.println(var);
         }

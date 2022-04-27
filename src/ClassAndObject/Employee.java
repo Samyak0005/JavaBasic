@@ -1,13 +1,16 @@
 package ClassAndObject;
 
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 // use of constructor
 public class Employee {
+    Scanner sc = new Scanner(System.in);
     String id;
     String name;
     long salary;
     String Department;
+
+
 
     public Employee(String id, String name, long salary, String department) {
         this.id = id;
@@ -18,6 +21,7 @@ public class Employee {
 
 
     public static void main(String[] args) {
+
 Employee obj =new Employee("e1","Ritik",80000l,"software testing");
 Employee obj2 =new Employee("e2", "samyak",70000l, "bug finding");
 Employee obj3 = new Employee("e3","aniket", 75000l,"check coding");

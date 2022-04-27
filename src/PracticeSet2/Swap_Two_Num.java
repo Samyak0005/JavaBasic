@@ -2,9 +2,9 @@ package PracticeSet2;
 
 public class Swap_Two_Num {
     public static void main(String[] args) {
-       // System.out.println("swapping two number/n using three variables");
-        System.out.println("swapping two number/n using two variables");
-     /*   int a = 8;
+       // System.out.println("swapping two number using three variables");
+        System.out.println("swapping two number using two variables");
+        /*   int a = 8;
         int b = 19;
         int c;
         c=b;
