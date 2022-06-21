@@ -1,6 +1,5 @@
 package collection.arraylist;
 
-import ClassAndObject.Employee;
 import model.Employe;
 
 import java.util.ArrayList;
