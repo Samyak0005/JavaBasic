@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Add_2Num_Input_Para {
     public static  void calculatedSum(int a, int b){
       System.out.println("sum "+(a+b));
-        return ;
+     //   return ;
    }
 /*public  static int calculatedsum(int a, int b){
    int sum = a+b;//(return a+b);

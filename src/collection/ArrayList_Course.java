@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayList_Course {
     public static void main(String[] args) {
-        ArrayList courselist = new ArrayList();
+      ArrayList courselist = new ArrayList();
 
         courselist.add("java");
         courselist.add("spring booth");

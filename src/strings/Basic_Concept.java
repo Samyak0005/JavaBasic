@@ -6,11 +6,12 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Basic_Concept {
+    //String are Immutable
 
     //Concatenation
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String firstname = sc.nextLine();
+        String  firstname = sc.nextLine();
         String Secondname = sc.nextLine();
 
         String Fullname = firstname + "" + Secondname;

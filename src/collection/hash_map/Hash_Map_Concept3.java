@@ -31,9 +31,9 @@ public class Hash_Map_Concept3 {
         HindustanStudent.add(student3);
         Studentlist.put(1,KPEC);
         Studentlist.put(2,HindustanStudent);
-        for (Integer var : Studentlist.keySet()){
-            System.out.println(Studentlist.get(var));
-        }
+       // for (Integer var : Studentlist.keySet()){
+         //   System.out.println(Studentlist.get(var));
+       // }
         for (Student var: Studentlist.get(2)){
             System.out.println("Student name :"+var.getName()+"Student Section :"+var.getSection()+"Student Rollno :"+var.getRoll_no());
         }

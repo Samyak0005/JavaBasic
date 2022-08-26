@@ -6,7 +6,7 @@ public class DellLapBuy {
         int Ram = 8;
         int Hd = 512;
         // & AND operator are used for when all conditions are true
-        if(laptop=="Dell"& Ram>4& Hd>128){
+        if(laptop=="Dell"&& Ram>4 && Hd>128){
             System.out.println("this is perfect laptop for me");
         }
         else{

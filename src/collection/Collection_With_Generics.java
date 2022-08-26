@@ -30,7 +30,7 @@ public class Collection_With_Generics {
                 System.out.println(var);
             }
         }
-            public ArrayList salarylist() {
+            public ArrayList<Double>  salarylist() {
                 System.out.println("third method salary list with Advanced method");
                 ArrayList<Double> Salary_list = new ArrayList<Double>();
                 Salary_list.add(20000.45);
